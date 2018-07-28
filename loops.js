@@ -11,3 +11,9 @@ function forLoop(a) {
   
   return a;
 }
+
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(n--);
+  }
+}
