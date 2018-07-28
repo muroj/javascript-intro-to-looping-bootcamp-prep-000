@@ -24,6 +24,8 @@ function doWhileLoop(anArray) {
   do {
     anArray.pop()
   } while(maybeTrue() || !anArray.length);
+  
+  return anArray
 }
 
 function maybeTrue() {
