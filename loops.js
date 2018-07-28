@@ -22,6 +22,10 @@ function whileLoop(n) {
 
 function doWhileLoop(anArray) {
   do {
-    
-  } while
+    anArray.pop()
+  } while(maybeTrue() || !anArray.length);
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
